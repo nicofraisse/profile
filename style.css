@@ -1,3 +1,8 @@
+html,
+body {
+    height: 100%;
+}
+
 h1 {
   font-weight: 100;
   color: rgb(90,90,90);
@@ -12,10 +17,13 @@ h2 {
   font-style: bold;
 }
 body {
-  background-color: rgb(245,245,250);
+  background-size: cover;
+
+  background-image: linear-gradient(#114357, #F29492);
   color: #19323C;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
+
 }
 
 p {
@@ -33,12 +41,12 @@ a {
 }
 
 .box {
-  background-color: white;
+  background-color: rgba(255,255,255, 0.9);
   text-align: center;
-  box-shadow:  0px 0px 10px #C9C9CB;
   border-radius: 6px;
   padding: 16px 92px 32px 92px;
   margin-top: 36px;
+  box-shadow: 3px 3px 6px;
 }
 
 .green-button {
@@ -66,6 +74,11 @@ a {
   font-size: 48px;
 }
 
+.header-image {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 44px;
+}
 .blue-icon {
   color: #4D7EA8;
   font-size: 48px;
@@ -78,10 +91,11 @@ a {
 
 #nicolas_image {
   object-fit: cover;
-  height: 100px;
-  width: 100px;
+  height: 128px;
+  width: 128px;
   border-radius: 1000px;
 }
+
 
 @media (min-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -102,8 +116,10 @@ a {
   }
   .green-button {
     width: 300px;
-    margin: 0 auto;  }
+    margin: 0 auto;
+  }
 }
+
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
@@ -112,15 +128,17 @@ a {
   }
   .green-button {
     width: 300px;
-    margin: 0 auto;  }
+    margin: 0 auto;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 400px;
     margin: 0 auto;
   }
   .green-button {
-    width: 200px;
-    margin: 0 auto;  }
+    width: 172px;
+    margin: 0 auto;
+  }
 }
