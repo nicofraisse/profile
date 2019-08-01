@@ -41,22 +41,22 @@ a {
 }
 
 .box {
-  background-color: rgba(255,255,255, 0.9);
+  background-color: rgba(255,255,255, 0.86);
   text-align: center;
-  border-radius: 6px;
+  border-radius: 36px;
   padding: 16px 92px 32px 92px;
   margin-top: 36px;
-  box-shadow: 3px 3px 6px;
+  box-shadow: 0px 0px 10px;
 }
 
 .green-button {
-  background-color: #81A681;
+  background-color: #81BD54;
   padding: 12px 24px;
   border-radius: 4px;
 }
 
 .green-button:hover {
-  background-color: #99C794;
+  background-color: #9fe66a;
   color: white;
 }
 
@@ -80,7 +80,7 @@ a {
   padding-top: 44px;
 }
 .blue-icon {
-  color: #4D7EA8;
+  color: #3c7191;
   font-size: 48px;
 
 }
@@ -94,6 +94,8 @@ a {
   height: 128px;
   width: 128px;
   border-radius: 1000px;
+  box-shadow: 0px 0px 10px;
+
 }
 
 
